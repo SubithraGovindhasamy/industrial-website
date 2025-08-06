@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Index page</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div id="body-main">
+            <div id="sub-main">
+                <header>
+                    <div class="left">
+                            <a href="#"><i class="fa-brands fa-facebook" style="color: #f5f7f9;"></i></a>
+                             <a href="#"><i class="fa-brands fa-linkedin" style="color: #eceff4;"></i></a>
+                             <a href="#"><i class="fa-brands fa-instagram" style="color: #f7f7f8;"></i></a>
+                             <a href="#"><i class="fa-brands fa-twitter" style="color: #fafcff;"></i></a>
+                             <a href="#"><i class="fa-solid fa-phone" style="color: #fcfcfd;"></i>9876543210</a>
+                             <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>web@gmail.com</a>
+                    </div>
+                    <div class="right">
+                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #fafafa;"></i>Puducherry</a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart" style="color: #f9fafb;"></i></a>
+                        <a href="#"><i class="fa-solid fa-user" style="color: #f7f7f8;"></i>Login|Signup</a>
+                    </div>
+                </header>
+                <div id="nav-bar">
+                    <div class="logo">
+                         <img src="image/logo.png" alt="logo" width="200" height="150">
+                    </div>
+                    <div id="nav-link">
+                        <a href="#home">Home</a>
+                        <a href="#Wedeal">We Deal In</a>
+                        <a href="#product">Product</a>
+                        <a href="#about">About us</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contactus">Contact us</a>
+                        <i class="fa-solid fa-bars" onclick="shownavbar()" style="color: #f7f7f8;"></i>
+                    </div>
+                </div>
+                <div class="side-navbar">
+                    <div class="side-navlink">
+                        <div id="close-navbar">
+                             <p onclick="closenavbar()"> <strong>X</strong></p>
+                        </div>
+                        <a style="color:orange;text-decoration: underline orange;"href="#home">Home</a>
+                        <a href="#Wedeal">We deal in</a>
+                        <a href="#product">Product</a>
+                        <a href="#about">About us</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contactus">Contact us</a>
+                    </div>
+                </div>
+                <div  id="home" class="row1" data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <div class="title">
+                        <h1>Flexible and Durable tools</h1>
+                    </div>
+                    <div class="button">
+                        <div class="btn">
+                            <a href="#">Enquire now</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div id="Wedeal" class="row2"data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h1>We Deal In</h1>
+                <div class="image">
+                        <div><img src="image/machine1.jpg" alt="image" width="250" height="250"><p>Image</p></div>
+                        <div><img src="image/machine2.jpg" alt="image" width="250" height="250"><p>Image</p></div>
+                        <div><img src="image/gallery2.jpg" alt="image" width="250" height="250"><p>Image</p></div>
+                        <div><img src="image/machine4.jpg" alt="image" width="250" height="250"><p>image</p></div>
+                        <div><img src="image/machine5.jpg" alt="image" width="250" height="250"><p>Image</p></div>
+                        <div><img src="image/machine6.jpg" alt="image" width="250" height="250"><p>Image</p></div> 
+                        <div><img src="image/machine7.jpg" alt="image" width="250" height="250"><p>Image</p></div>
+                        <div><img src="image/gallery1.jpg" alt="image" width="250" height="250"><p>Image</p></div>  
+                </div>
+            </div>
+            <div id="product" class="row3" data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h1>Products</h1>
+                <div class="product">
+                        <div class="flex-product"><img src="image/product1.png" alt="image" width="170" height="150"><p> Machine image </p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div>
+                        <div class="flex-product">
+                            <img src="image/product2.jpg" alt="image" width="150" height="150"><p>Machine image</p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div>
+                        <div class="flex-product"><img src="image/product3.jpg" alt="image" width="150" height="150"><p>Machine image</p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div>
+                        <div class="flex-product"><img src="image/product4.jpg" alt="image" width="150" height="150"><p>Machine image</p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div>
+                        <div class="flex-product"><img src="image/product5.jpg" alt="image" width="150" height="150"><p>Machine image</p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div>
+                        <div class="flex-product"><img src="image/product6.jpg" alt="image" width="150" height="150"><p>Machine image</p>
+                            <div class="btn">
+                                <a href="#"><i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>Send Enquiry</a>
+                            </div>
+                        </div> 
+                </div>
+                <div id="about" class="row4" data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <h1>About Us</h1>
+                    <div><img src="image/about.jpg" alt="image" width="500" height="300"></div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur. Suspendisse feugiat consequat non proin tellus. Egestas ut elit morbi suspendisse malesuada. Purus pretium donec curabitur donec. Risus aliquam aliquet elit maecenas eu magna non ultrices. Pretium at eu justo vitae interdum velit ut ac mattis. Augue enim faucibus ultrices nibh porta vel suspendisse. Id scelerisque nec et amet donec a sapien.
+                            Lorem ipsum dolor sit amet consectetur. Suspendisse feugiat consequat non proin tellus. Egestas ut elit morbi suspendisse malesuada. Purus pretium donec curabitur donec. Risus aliquam aliquet elit maecenas eu magna non ultrices. Pretium at eu justo vitae interdum velit ut ac mattis. Augue enim faucibus ultrices nibh porta vel suspendisse. Id scelerisque nec et amet donec a sapien.
+                            </p>
+                        </div>
+                </div>
+                <div id="gallery" class="row5" data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <h1>Gallery</h1>
+                        <div class="gallery">
+                            <div><img src="image/gallery1.jpg" alt="image" width="350" height="250"></div>
+                            <div><img src="image/gallery2.jpg" alt="image" width="350" height="250"></div>
+                            <div><img src="image/gallery3.jpg" alt="image" width="350" height="250"></div>
+                        </div>
+                </div>
+                <div id="contactus" class="row6" data-bs-spy="scroll" data-bs-target="#nav-link" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <div><h1>CONTACT</h1></div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.004186708758!2d79.82411500809677!3d11.934734588807295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5363d37390095f%3A0x1946ff2cee1e7467!2sPuducherry%20Beach!5e0!3m2!1sen!2sin!4v1739252958583!5m2!1sen!2sin" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="row6-box"> 
+                        <div class="contact">
+                            <table style="text-align: center;">
+                                <tbody>
+                                    <tr>
+                                        <th style="font-size: 20px; color:white"><i class="fa-solid fa-location-dot" style="color: #fafcff;"></i>Our Office Address</th>
+                                    </tr>        
+                                    <tr>
+                                        <td><p>Palm Court Bldg M,501/B, 5th Floor,New Link Road,<br>Beside Goregaon Sports Complex,Malad West,Mumbai,<br>Maharashatra 400064</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th style="font-size: 20px; color:white"> <i class="fa-solid fa-envelope" style="color: #fcfcfd;"></i>General Queries <br></th>
+                                    </tr>
+                                    <tr>
+                                        <td> <a href="#">websupport@justdial.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th style="font-size: 20px; color:white"> <i class="fa-solid fa-phone" style="color: #fcfcfd;"></i> Contact Us <br></th>
+                                    </tr>
+                                    <tr>
+                                        <td> <a href="#">91+9876543210</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th style="font-size: 20px; color:white"> <i class="fa-regular fa-clock" style="color: #f4f5f5;"></i>Our timing </th>
+                                    </tr>
+                                    <tr>
+                                        <td>  <p>Mon to Sun 10:00AM to 7:00PM</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> 
+                        <div class="form">
+                            <table>
+                                <form>
+                                    <tr>
+                                        <td><input type="text"placeholder="Full Name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="tel"placeholder="Mobile number"></td>
+                                    <tr>
+                                        <td><input type="mailid"placeholder="Mail Id"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><textarea placeholder="Message"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input class="btn" type="submit"value="submit"></td>
+                                    </tr>
+                                </form>
+                            </table>
+                         </div>
+                    </div>   
+                </div>
+            </div>
+    <footer>
+            <div id="nav-link">
+                <p style="text-align: center; font-size: 25px;">USEFULL LINKS </p>
+                <a href="#" style="font-size:18px">Privacy policy</a>
+                <a href="#Wedeal" style="font-size:18px">We Deal In</a>
+                <a href="#contactus" style="font-size:18px">Contact us</a>   
+            </div>
+            <div id="nav-link" style="padding-top: 20px;">
+                <a href="#home" style="font-size:18px">Home</a>
+                <a href="#product" style="font-size:18px">Product</a>
+                <a href="#about"style="font-size:18px">About us</a>
+                <a href="#gallery" style="font-size:18px">Gallery</a>
+            </div>
+            <div id="contact">
+                    <p style="font-size: 25px;">CONTACT</p>
+                    <p>Palm Court Bldg M,501/B, 5th Floor,New Link Road,<br>Beside Goregaon Sports Complex,Malad West,Mumbai,<br>Maharashatra 400064</p>  
+                    <a href="#">websupport@justdial.com</a>
+                    <a href="#">91+9876543210</a>
+            </div>
+            <div id="connect">
+                    <p style="font-size: 25px;">CONNECT</p>
+                    <a href="#"style="font-size:25px"><i class="fa-brands fa-facebook" style="color: #f5f7f9;"></i></a>
+                    <a href="#" style="font-size:25px"><i class="fa-brands fa-linkedin" style="color: #eceff4;"></i></a>
+                    <a href="#" style="font-size:25px"><i class="fa-brands fa-instagram" style="color: #f7f7f8;"></i></a>
+                    <a href="#" style="font-size:25px"><i class="fa-brands fa-twitter" style="color: #fafcff;"></i></a>
+            </div> 
+    </footer>
+        <div id="copyrights">
+             <p>© 2025 | Designed By Vinayaka Machines | All rights Reserved</p>  
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
+
+ 
